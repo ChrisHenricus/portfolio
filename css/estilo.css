@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+header {
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: #727272;
+}
+
+body {
+  background-image: url(lc.png)
+  font-family: "Inconsolata", monospace;
+  background-color: #efefef;
+  color: gray;
+}
+
+main {
+  width: 70%;
+  margin: 20px auto 0 auto;
+  /* border: 1px solid orange; */
+}
+
+main section {
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: top;
+  width: 70%;
+  background-color: white;
+  /* border: 1px solid red; */
+  padding-bottom: 20px;
+}
+
+main section img {
+  width: 100%;
+}
+
+main section h2 {
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+main section p {
+  margin-top: 20px;
+  padding: 0 20px;
+}
+main aside {
+  display: inline-block;
+  margin-right: -4px;
+  margin-left: 3%;
+  vertical-align: top;
+  width: 27%;
+  /* border: 1px solid green; */
+}
+h1 {
+  display: inline-block;
+  width: 15%;
+  margin-right: -4px;
+  /*
+  border: 1px solid black   ;
+  */
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 100;
+}
+h1 span {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: "Indie Flower", cursive;
+}
+nav {
+  display: inline-block;
+  margin-right: -4px;
+  width: 85%;
+  /*
+  border: 1px solid black   ;
+  */
+  text-align: right;
+  vertical-align: middle;
+}
+
+a {
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.aside-box {
+  background-color: white;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.aside-box h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1px solid gray;
+}
+
+.aside-box input {
+  height: 35px;
+  width: 70%;
+  margin-left: 25px;
+  border: 1px solid #efefef;
+}
+
+.aside-box button {
+  width: 15%;
+  height: 35px;
+  background-color: grey;
+  color: white;
+}
+
+.aside-box ul {
+  margin-left: 30px;
+  margin-right: 10px;
+  /*text-transform: none;*/
+}
+.aside-box ul li {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.aside-box p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.aside-box #envia-email {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+}
